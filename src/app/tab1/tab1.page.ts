@@ -8,5 +8,9 @@ import { Component } from '@angular/core';
 export class Tab1Page {
 
   constructor() {}
+  text = "My First Ionic Project"
+  onChangeText(){
+     this.text = "Ionic Project"
+  }
 
 }
